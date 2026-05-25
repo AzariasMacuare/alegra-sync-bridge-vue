@@ -93,6 +93,42 @@ const onUploaded = async (payload: UploadedPayload) => {
     </div>
   </div>
 
+  <div class="fixed bottom-6 left-6 z-50 flex items-center gap-4 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 backdrop-blur-md shadow-lg text-[10px] font-medium tracking-wider uppercase text-gray-400 select-none">
+    <a 
+      href="https://github.com/AzariasMacuare/alegra-sync-bridge-vue" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      class="transition-colors hover:text-white flex items-center gap-1.5"
+    >
+      <span>💻</span> GitHub Front
+    </a>
+    <span class="text-white/10">|</span>
+    <a 
+      href="https://github.com/AzariasMacuare/alegra-sync-bridge-aws" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      class="transition-colors hover:text-white flex items-center gap-1.5"
+    >
+      <span>⚙️</span> GitHub Back
+    </a>
+    <span class="text-white/10">|</span>
+    <a 
+      href="https://www.linkedin.com/in/yosmaq/" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      class="transition-colors hover:text-blue-400 flex items-center gap-1.5"
+    >
+      <span>💼</span> Creator LinkedIn
+    </a>
+  </div>
+
+  <div class="fixed bottom-6 right-6 z-50 flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 backdrop-blur-md shadow-lg select-none">
+    <span class="flex size-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+    <p class="text-[10px] font-medium tracking-wider text-gray-400 uppercase">
+      App desarrollada para <span class="text-white font-bold">Alegra</span>
+    </p>
+  </div>
+
   <div class="fixed inset-0 pointer-events-none z-[9999]">
     <FluidCursor />
   </div>
