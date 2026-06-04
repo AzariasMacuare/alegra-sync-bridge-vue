@@ -18,7 +18,7 @@ describe('useNotificationStore', () => {
 
     expect(store.activeNotifications).toHaveLength(1)
     expect(store.activeNotifications[0]).toMatchObject({
-      name: '1/7 - Cliente: Archivo Seleccionado',
+      name: 'Cliente: Archivo Seleccionado',
       icon: '📄',
       color: '#297d40',
     })
@@ -45,7 +45,7 @@ describe('useNotificationStore', () => {
     }
 
     expect(store.activeNotifications).toHaveLength(7)
-    expect(store.activeNotifications[6].name).toBe('7/7 - Result: Final Sync')
+    expect(store.activeNotifications[6].name).toBe('Result: Final Sync')
     expect(store.activeNotifications[6].icon).toBe('✅')
   })
 })
